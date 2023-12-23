@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="🌱 About the web gardener.">
+	<main>
+		<h1>About <span class="text-gradient">RZ</span></h1>
+		<p class="instructions">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lacus
+			risus, convallis ut tincidunt fringilla, volutpat eget dolor. Nunc ut
+			massa eu sem accumsan pharetra. Maecenas a ligula leo. Cras finibus semper
+			rhoncus. Phasellus condimentum sollicitudin lorem, in ultrices lorem
+			dignissim a. Maecenas lacinia lectus ac massa convallis suscipit. Nullam
+			et eros imperdiet metus pretium tristique at ut arcu. Ut luctus nisi in
+			ligula viverra eleifend. Fusce fringilla quam tortor, at pretium ipsum
+			sodales sit amet. Vivamus vestibulum nisi ac bibendum cursus. Curabitur
+			sed rhoncus diam. Maecenas congue fringilla malesuada. Fusce elementum
+			turpis sit amet velit venenatis, ac luctus turpis semper. Donec finibus
+			metus vel placerat dignissim. Pellentesque facilisis, sem eu iaculis
+			dignissim, arcu arcu euismod nulla, quis gravida magna lectus non ipsum.
+			Phasellus vel congue lorem. Nullam suscipit fringilla leo ut sagittis.
+			Proin eleifend magna massa, et molestie elit ullamcorper sed. Pellentesque
+			habitant morbi tristique senectus et netus et malesuada fames ac turpis
+			egestas.
+		</p>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+</style>
